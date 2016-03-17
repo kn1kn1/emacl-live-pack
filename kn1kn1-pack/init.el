@@ -6,10 +6,13 @@
 ;; Load bindings config
 (live-load-config-file "bindings.el")
 
+;; disable startup zone
+(setq live-disable-zone t)
 
+;; custom zone
 (live-load-config-file "end-of-buffer.el")
 ;;(live-load-config-file "the-stars.el")
 
-
-(require 'linum)            ;\左に行番号表示
+;; linum
+(require 'linum)
 (global-linum-mode)
