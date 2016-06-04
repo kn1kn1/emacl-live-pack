@@ -6,11 +6,11 @@
 ;; Load bindings config
 (live-load-config-file "bindings.el")
 
-;; disable startup zone
-(setq live-disable-zone t)
+;;;; disable startup zone
+;;(setq live-disable-zone t)
 
 ;; custom zone
-(live-load-config-file "end-of-buffer.el")
+;;(live-load-config-file "end-of-buffer.el")
 ;;(live-load-config-file "the-stars.el")
 
 ;; linum
